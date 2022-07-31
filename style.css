@@ -11,8 +11,8 @@ nav{
 	font: left;
 }
 .menu{
-	font: left;
-	padding: 432px;
+	float: : left;
+	padding-left: : 432px;
  }
  .menu li{
  	float: left;
