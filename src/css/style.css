@@ -1,0 +1,72 @@
+body{
+	font-family: Arial, sans-serif;
+}
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: #344051;
+}
+.logo{
+	float: left;
+	color: #fff;
+	font-size: 30px;
+	line-height: 60px;
+	padding-left:200px;
+}
+.menu{
+	float: left;
+	padding-left: 220px;
+ }
+ .menu li{
+ 	float: left;
+ 	font-size: 16px;
+ 	color: white;
+ 	line-height: 60px;
+ 	margin-right: 20px;
+ 	text-transform: uppercase;
+ }
+ .menu li a:visited{
+ 	color: white;
+ }
+ .main{
+ 	width: 100%;
+ 	height: calc(100% - 60px);
+ 	background: url(...) 90% 100%/auto 85% no-repeat, url(...) center/cover 
+ }
+ .title__container{
+ 	float: left;
+ 	margin: 232px 0 0 204px;
+ 	color: #2c384a;
+ 	text-align: center;
+ }
+ .title__container h1{
+ 	font-size: 60px;
+ 	text-align: center;
+ 	font-weight: bold;
+ }
+ .title__container h4{
+ 	color: #79818d;
+ 	text-align: center;
+ 	margin-top: 30px;
+ 	font-size: 22px;
+ }
+ .title__container input{
+ 	height: 30px;
+ 	text-align: center;
+ 	border: 2px solid #6d7682;
+ 	background: none;
+ 	border-radius: 5px;
+ 	color: #6d7682;
+ 	font-size: 13px;
+ 	padding: 0px 16px;
+ 	margin: 8px 7px 0px 7px;
+ }
+ .about_me_container h2{
+ 	text-align: center;
+ 	border-bottom: 2px solid black;
+ 	width: 120px;
+ 	font-size: 25;
+ }
+ 
+ 
+ 
