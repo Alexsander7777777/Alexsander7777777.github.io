@@ -22,7 +22,7 @@ nav{
 	line-height: 60px;
 	color: #fff;
 	margin-right: 40px;
-	font-size: 16px;
+	font-size: 17px;
 	text-transform: uppercase;
 }
 .main{
@@ -114,11 +114,12 @@ nav{
 
 }
 .cases_style{
-	width: 80%;
+	width: 450px;
 	height: 170px;
+	float: left;
 }
 .cases input{
-height: 30px;
+    height: 30px;
 	text-align: center;
 	border: 2px solid #6d7682;
 	background: none;
@@ -129,11 +130,56 @@ height: 30px;
 	margin-top: 18px;
 	margin: 40px 14px 0px 14px;
 }
+.calculator{
+	height: 200px;
+	width: 100%;
+}
 .calculator_container{
-	;
-	height: 500px;
 	text-align: center;
+	font-size: 17px;
+	color: #2c384a;
+	text-transform: uppercase;
+}
+.calculator h4{
+	font-size: 17px;
+	color: #2c384a;
+	text-transform: uppercase;
+	float: left;
+	width: 65%;
+}
+.calculator_container input{
+	height: 30px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius: 5px;
+	color: #6d7682;
+	font-size: 13px;
+	padding: 0px 3px;
+	margin-top: 18px;
+	margin: 40px 14px 0px 14px;
+}
+.calculator_footer{
+	width: 100%;
+	height: calc(100% - 60px);
+	font-size: 17px;
+	color: #2c384a;
+}
+.price{
+	width: 100%;
+	height: calc(100% - 600px);
+	font-size: 17px;
+	color: #2c384a;
+}
+.stastic_container h5{
+	float: left;
+	width: 20%;
+	margin-right: 40px;
 
 }
-	
-	
+.stastic h4{
+	text-align: center;
+	font-size: 24px;
+	color: #2c384a;
+	text-transform: uppercase;
+}
