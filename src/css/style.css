@@ -13,9 +13,7 @@ nav{
 	line-height: 60px;
 	padding-left: 185px;
 	float: left;
-	-webkit-animation: comming 2s ease;
-	-0-animation: comming 2s ease;
-	animation: comming 2s ease;
+	
 }
 .main{
 	width: 100%;
@@ -32,28 +30,19 @@ nav{
 	margin-right: 40px;
 	font-size: 17px;
 	text-transform: uppercase;
-	-webkit-animation: topshift 0.4s ease forwards;
-	-0-animation: topshift 0.4s ease forwards;
-	animation: topshift 0.4s ease forwards;
-	opacity: 0;
+	
 }
 .main{
 	width: 100%;
 	height: 100%;
-	background: url(../img/фон) 90% 100%/auto 85% no-repeat, url(../) center/cover no-repeat;
+	background: url(../img/главфотосайт.jpg) 90% 100%/auto 85% no-repeat, url(../фон.jpg) center/cover no-repeat;
 }
 .title_container{
 	float: left;
 	margin: 342px 0px 0px 304px;
 	color: #2c384a;
 	text-align: center;
-	-webkit-animation: titlemove 1s ease forwards;
-	-0-animation: titlemove 1s ease forwards;
-	animation: titlemove 1s ease forwards;
-	-webkit-animation-delay: 2.4s;
-	-0-animation-delay: 2.4s; 
-	animation-delay: 2.4s;
-	opacity: 0;
+	
 
 }	
 .title_container h1{
@@ -254,70 +243,3 @@ nav{
 	text-align: center;
 	padding: : 10px;
 }
-.menu li a{
-	transition: all 0.1s;
-	color: white
-	transform:scale(1);
-	display: inline-block;
-}
-.menu li a:visited{
-	color: white;
-}
-.menu li a:hover{
-	color: #e88604;
-	
-}
-.menu li a:active{
-	transform: scale(1,1);
-}
-.title_container input{
-	transition: all 0.2s;
-	transform: scale(1);
-}
-.title_container input:hover{
-	background: #344051;
-	color: white;
-}
-.title_container input:active{
-	transform: scale(1,1);
-}
-@keyframes comming{
-	from{
-		opacity: 0;
-	}
-	to{
-		opacity: 1;
-	}
-@keyframes topshift{
-	from{
-		opacity: 0;
-		margin-top: -80px;
-	}
-	to{
-		opacity: 1;
-		margin-top: 0px;
-	}
-.menu li:nth-child(2){
-	animation-delay: 0.4s;
-}
-.menu li:nth-child(3){
-	animation-delay: 0.8s;
-}
-.menu li:nth-child(4){
-	animation-delay: 1.2s;
-}
-.menu li:nth-child(5){
-	animation-delay: 1.6s;
-}
-.menu li:nth-child(6){
-	animation-delay: 2s;
-}
-@keyframes titlemove{
-	from{
-		opacity: 0;
-		margin-left: -500px;
-	}
-	to{
-		opacity: 1;
-		margin-left: 304px;
-	}
