@@ -243,3 +243,6 @@ nav{
 	text-align: center;
 	padding: : 10px;
 }
+.menu li a:visited{
+	color: #d17700;
+}
