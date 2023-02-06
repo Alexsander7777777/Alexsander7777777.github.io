@@ -243,6 +243,16 @@ nav{
 	text-align: center;
 	padding: : 10px;
 }
+.menu li a{
+	transition: all 0,1s;
+	color: white;
+	transform: scale(1);
+	display: inline-block;
+}
 .menu li a:visited{
-	color: #d17700;
+	color: white;
+}
+.menu li a:hover{
+	color: #e88604;
+	transform: scale(1,1);
 }
