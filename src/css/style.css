@@ -265,4 +265,8 @@ nav{
 .title_container input:hover{
 	background: #344051;
 	color: white;
+
+}
+.main{
+	height: 100%;
 }
